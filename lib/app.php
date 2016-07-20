@@ -16,7 +16,6 @@ class AppTable extends Table
     {
         $this->dbo = PaqureDB::sharedInstance();
         $this->tableName = 'app';
-
     }
 
     /** @method singleton accessor
@@ -44,7 +43,6 @@ class AppTable extends Table
                PRIMARY KEY (`id`),
                UNIQUE KEY `name` (`name`)
                ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;';
-
         $this->dbo->executeSQL($sql);
     }
 
