@@ -1,5 +1,18 @@
 <?php
 
+/**
+ * app.php
+ * db-table singleton
+ *
+ * @category   Database
+ * @package    paqure-lamp-backend
+ * @author     Roderic Linguri <linguri@digices.com>
+ * @copyright  2016 Digices LLC
+ * @license    https://github.com/digices-llc/paqure-lamp-backend/blob/master/LICENSE
+ * @version    0.0.1
+ * @link       https://github.com/digices-llc/paqure-php-api.git
+ */
+
 class AppTable extends Table
 {
     /** @property PaqureDB **/
