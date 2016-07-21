@@ -19,4 +19,6 @@ $at = AppTable::sharedInstance();
 $at->createTable();
 $at->insertArray(array('Paqure', 0, 0, 1, 2016, 'Digices LLC'));
 
-
+$dt = DeviceTable::sharedInstance();
+$dt->createTable();
+$dt->insertArray(array('public', 'public', 'en-US', md5('public'), date('U'), date('U'), 2));
