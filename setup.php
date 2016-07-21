@@ -22,3 +22,7 @@ $at->insertArray(array('Paqure', 0, 0, 1, 2016, 'Digices LLC'));
 $dt = DeviceTable::sharedInstance();
 $dt->createTable();
 $dt->insertArray(array('public', 'public', 'en-US', md5('public'), date('U'), date('U'), 2));
+
+$ut = UserTable::sharedInstance();
+$ut->createTable();
+$ut->insertArray(array('anonymous',sha1('none'),'anonymous@digices.com','Anonymous','User',99,2));
