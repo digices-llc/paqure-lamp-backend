@@ -37,7 +37,7 @@ class PaqureDB extends DBO
     {
         $this->name = DBNAME;
         $this->user = DBUSER;
-        $this->password = DPPASS;
+        $this->password = DBPASS;
         parent::__construct();
     }
 
