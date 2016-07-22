@@ -57,7 +57,7 @@ class UserTable extends Table
                `status` int(1) NOT NULL,
                PRIMARY KEY (`id`),
                UNIQUE KEY `username` (`username`,`email`)
-               ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;';
+               ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;';
         $this->dbo->executeSQL($sql);
     }
 
